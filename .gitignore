@@ -1,9 +1,12 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/Frontend/dyno-prog-react/node_modules
-/Frontend/dyno-prog-react/.pnp
-/Frontend/dyno-prog-react/.pnp.js
+Frontend/dyno-prog-frontend/node_modules
+Frontend/dyno-prog-frontend/.pnp
+Frontend/dyno-prog-frontend/.pnp.js
+# /node_modules
+# /.pnp
+# .pnp.js
 
 # testing
 /coverage
