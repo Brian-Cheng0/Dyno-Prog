@@ -80,3 +80,9 @@ while True:
         break
     print(token_type, scanner.current_tokens[scanner.cursor_index])
     scanner.skip_token()
+
+
+
+
+
+# TODO: 31 & 32 is harcoded, try fix this
