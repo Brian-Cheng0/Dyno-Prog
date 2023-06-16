@@ -1,37 +1,41 @@
-import styled from 'styled-components';
-// Creating a styled div
+import styled from "styled-components";
 const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  height: 80px;
 `;
 
-// Creating a styled button
-const StyledButton = styled.button`
-  padding: 10px 20px;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: white;
-  cursor: pointer;
-  
-  &:hover {
-    background-color: #0056b3;
-  }
+const StyledList = styled.ul`
+display: flex;
+align-items: center;
+list-style-type: none;
+padding: 0;
+`;
+
+const StyledListItem = styled.li`
+padding: 50px;
+cursor: pointer;
+font-family: "Montserrat", sans-serif;
+font-weight: 800;
+font-size: 16px; // Added font size
+transition: color 0.3s ease-in-out; // Added transition for hover effect
+&:hover {
+  color: aqua;
+}
 `;
 
 const Nav = () => {
-    return (
-      <div>
-        <img src="/img/Logo.png" alt="logo" />
-        <ul>
-          <li>option1</li>
-        </ul>
-      </div>
-    );
-  };
+  return (
+    <Container>
+      <StyledList>
+        <StyledListItem>BNF</StyledListItem>
+        <StyledListItem>AST</StyledListItem>
+        <StyledListItem>Lexer</StyledListItem>
+        <StyledListItem>Parser</StyledListItem>
+      </StyledList>
+    </Container>
+  );
+};
 
 export default Nav;
