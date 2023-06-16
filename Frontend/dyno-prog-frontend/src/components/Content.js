@@ -13,7 +13,6 @@ const Content = () => {
         size="large"
         sx={{
           backgroundColor: "#FF6B1A",
-          
           fontWeight: 900,
           "&:hover": {
             backgroundColor: "darkred",

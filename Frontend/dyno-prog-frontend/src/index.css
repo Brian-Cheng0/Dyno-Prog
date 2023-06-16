@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.test{
+  max-height: 50%;
+  cursor: pointer;
+  margin-bottom: 32;
+  color: aqua;
+  padding-top: 30px;
+  height: 50px;
+  position:flex;
+  justify-content: center;
+  align-items: center;
+  padding: fds;
+  position: absolute;
+}
